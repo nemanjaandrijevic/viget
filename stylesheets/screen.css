@@ -1,0 +1,338 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/naslov.scss */
+.naslov {
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #808080;
+  font-size: 0px;
+  margin-bottom: 5px;
+}
+
+/* line 13, ../sass/naslov.scss */
+h3::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 14px;
+  height: 15px;
+  background-color: #808080;
+  transform: skew(-30deg);
+  right: -10px;
+}
+
+/* line 26, ../sass/naslov.scss */
+h3::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 14px;
+  height: 15px;
+  background-color: #808080;
+  transform: skew(-30deg);
+  right: 10px;
+  z-index: -1;
+}
+
+/* line 38, ../sass/naslov.scss */
+h3 {
+  /*max-width: 100%;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  /*overflow: hidden;*/
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  color: #ccd8dc;
+  padding: 0px;
+  margin: 0px;
+  height: 15px;
+  font-size: 13px;
+  margin-left: 13px;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background-color: #808080;
+}
+
+/* line 11, ../sass/screen.scss */
+.image-size {
+  width: 15px;
+  max-height: 1;
+}
+
+/* line 16, ../sass/screen.scss */
+.viget {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  color: #ccd8dc;
+  font-size: 80%;
+}
+
+/* line 25, ../sass/screen.scss */
+.all {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(44, 48, 57, 0.5);
+  padding: 4px;
+}
+
+/* line 32, ../sass/screen.scss */
+.col-1, .col-2 {
+  flex: 0 0 auto;
+}
+
+/* line 37, ../sass/screen.scss */
+.col-1 {
+  flex-basis: 70%;
+  max-width: 70%;
+  background-color: #808080;
+}
+
+/* line 43, ../sass/screen.scss */
+.col-2 {
+  flex-basis: 30%;
+  max-width: 30%;
+}
+
+/* line 49, ../sass/screen.scss */
+.headRow {
+  display: flex;
+  max-width: 100%;
+  border-width: 2px 2px 0px 2px;
+  border-style: solid;
+  border-color: rgba(44, 48, 57, 0.5);
+  text-transform: capitalize;
+}
+
+/* line 58, ../sass/screen.scss */
+.divRow {
+  text-transform: uppercase;
+}
+
+/* line 62, ../sass/screen.scss */
+.divRow {
+  display: flex;
+  max-width: 100%;
+  border-width: 2px 2px 0px 2px;
+  border-style: solid;
+  border-color: rgba(44, 48, 57, 0.5);
+}
+
+/* line 70, ../sass/screen.scss */
+.divRow:last-child {
+  border: 2px solid rgba(44, 48, 57, 0.5);
+}
+
+/* line 74, ../sass/screen.scss */
+.no-border {
+  border-right: 0 !important;
+}
+
+/* line 78, ../sass/screen.scss */
+.divCell {
+  flex: 1 1 auto;
+  max-width: 100%;
+  border-right: 2px solid rgba(44, 48, 57, 0.5);
+}
+
+/* line 85, ../sass/screen.scss */
+.divCell:last-child {
+  border: 0;
+}
+
+/* line 89, ../sass/screen.scss */
+.vreme {
+  flex: 0 1 90px;
+  max-width: 100%;
+}
+
+/* line 98, ../sass/screen.scss */
+.zastava {
+  flex: 1 1 20px;
+  max-width: 100%;
+}
+
+/* line 103, ../sass/screen.scss */
+.flag {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 108, ../sass/screen.scss */
+.domacin {
+  flex: 1 1 150px;
+}
+
+/* line 112, ../sass/screen.scss */
+.gost {
+  flex: 1 1 150px;
+}
+
+/* line 116, ../sass/screen.scss */
+.kvota {
+  flex: 1 0 50px;
+}
+
+/* line 120, ../sass/screen.scss */
+.quote {
+  color: yellow;
+}
+
+/* line 124, ../sass/screen.scss */
+.text-hide {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 132, ../sass/screen.scss */
+.col-1 .divRow .divCell {
+  padding: 5px 5px;
+}
+
+/* line 140, ../sass/screen.scss */
+.col-1 .headRow .divCell {
+  padding: 2px 5px;
+}
+
+/* line 146, ../sass/screen.scss */
+.ticket {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  max-width: 100%;
+  height: 100%;
+}
+/* line 153, ../sass/screen.scss */
+.ticket .ticket-row {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: capitalize;
+}
+/* line 161, ../sass/screen.scss */
+.ticket .ticket-actions {
+  padding: 7px 7px 0;
+  margin-top: auto;
+}
+
+/* line 167, ../sass/screen.scss */
+.uplata {
+  background-color: black;
+  padding: 5px 10px;
+}
+
+/* line 172, ../sass/screen.scss */
+.span-1 {
+  flex: 1 0 auto;
+  max-width: 100%;
+}
+
+/* line 177, ../sass/screen.scss */
+.span-2 {
+  flex: 1 0 auto;
+  max-width: 100%;
+  float: right;
+}
+
+/* line 183, ../sass/screen.scss */
+.button-size {
+  width: 100%;
+  padding: 3px 10px;
+  background-color: #808080;
+  border: 0;
+  color: #ccd8dc;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 3, ../sass/media.scss */
+  .all {
+    flex-direction: column;
+  }
+
+  /* line 8, ../sass/media.scss */
+  .col-1 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 13, ../sass/media.scss */
+  .col-2 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

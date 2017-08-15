@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px) {
+  /* line 3, ../sass/media.scss */
+  .all {
+    flex-direction: column;
+  }
+
+  /* line 8, ../sass/media.scss */
+  .col-1 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 13, ../sass/media.scss */
+  .col-2 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
